@@ -1,0 +1,37 @@
+{
+  "name": "npm-docs-readme",
+  "version": "1.0.0",
+  "description": "CLI to show README of npm packages on terminal",
+  "bin": {
+    "npm-docs-readme": "bin/npm-docs-readme.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "FujiHaruka/npm-docs-readme",
+  "keywords": [
+    "npm"
+  ],
+  "author": {
+    "name": "Fuji Haruka",
+    "email": "fujiharuka@realglobe.jp",
+    "url": "https://github.com/FujiHaruka"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FujiHaruka/npm-docs-readme/issues"
+  },
+  "homepage": "https://github.com/FujiHaruka/npm-docs-readme#readme",
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "commander": "^2.9.0",
+    "es6-promisify": "^5.0.0",
+    "marked": "^0.3.6",
+    "marked-terminal": "^2.0.0",
+    "pkg.json": "^2.0.5"
+  }
+}
